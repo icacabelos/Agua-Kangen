@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Georgia', serif;
-    background: url('fondo.jpg') no-repeat center center fixed;
+    background: url('/fondo.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #f0f0f0;
   }
