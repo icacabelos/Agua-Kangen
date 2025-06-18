@@ -98,7 +98,21 @@ hr {
 }
 .cabecera {
   width: 100%;
-  max-height: 200px;
-  object-fit: cover;
+  height: auto;
   display: block;
+  object-fit: cover;
+}
+
+/* Aumentar altura en móviles */
+@media (max-width: 768px) {
+  .cabecera {
+    max-height: 300px; /* Puedes probar con 250 o 350 también */
+  }
+}
+
+/* Limitar en pantallas grandes */
+@media (min-width: 769px) {
+  .cabecera {
+    max-height: 200px;
+  }
 }
